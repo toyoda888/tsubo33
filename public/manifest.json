@@ -1,0 +1,28 @@
+{
+  "name": "つぼ３３ - 経穴学習アプリ",
+  "short_name": "つぼ３３",
+  "description": "楽しく学べる経穴（ツボ）学習アプリ。日常モード、復習モード、サバイバルモードなど多彩なゲームモードで東洋医学の知識を身につけよう！",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FDF8FA",
+  "theme_color": "#FFB6D9",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "health", "lifestyle"],
+  "lang": "ja",
+  "dir": "ltr",
+  "prefer_related_applications": false
+}
