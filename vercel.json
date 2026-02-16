@@ -1,5 +1,5 @@
-{
-  "buildCommand": "npm run build",
+﻿{
+  "buildCommand": "npx expo export -p web",
   "outputDirectory": "dist",
   "devCommand": "npm run dev",
   "installCommand": "npm install",
@@ -8,6 +8,23 @@
     {
       "source": "/(.*)",
       "destination": "/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/robots.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain"
+        }
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "src": "/robots.txt",
+      "dest": "/robots.txt"
     }
   ]
 }
